@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Legal Padi - Legal Practitioner</title>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const lawyerName = params.get('name') || 'Legal Padi';
+      document.title = `${lawyerName} - Legal Practitioner`;
+    </script>
   </head>
   <body>
     <div id="root"></div>
