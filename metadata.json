@@ -1,0 +1,6 @@
+{
+  "name": "Legal Padi",
+  "description": "Professional website for a legal practitioner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
